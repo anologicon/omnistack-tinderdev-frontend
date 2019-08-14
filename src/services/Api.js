@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:7100',
+    baseURL: 'https://anomnistackbackend.herokuapp.com/',
 })
 
 export default api;
